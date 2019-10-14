@@ -1,0 +1,71 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td {
+  margin: 0;padding: 0;
+}
+body, button, input, select, textarea {
+  font: 14px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; }
+small { font-size: 12px; }
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+abbr[title], acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+q:before, q:after { content: ''; }
+legend { color: #000; }
+fieldset, img { border: none; outline: none;}
+button, input, select, textarea {
+  font-size: 100%;
+}
+textarea{
+  overflow-y: auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  border: none;
+  height: 1px;
+}
+html,body{ height: 100%;overflow-y: auto; background: #f8f8f8;}
+
+
+#app{
+  height: 100%;
+}
+
+/**
+  element-ui样式修改
+ */
+.el-dialog__footer{
+  padding: 10px;
+}
+/**
+  --------------
+ */
+
+.red_dot::after{
+  content: "*";
+  color: red;
+  font-size: 14px;
+}
+
+.bgb{
+  background: rgba(110,140,255,0.1);
+  color: #5696ff;
+  user-select: none;
+}
+.bdcb{
+  border-color: #5696ff;
+}
+a{
+  color: #5696ff;
+}
